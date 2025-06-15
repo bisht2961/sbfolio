@@ -178,9 +178,9 @@ const workExperiences = {
       date: "Nov 2023 – Present",
       desc: "Experience working with Python and Java for backend development.",
       descBullets: [
-        "Integrated AI models into applications to build chatbots and provide automation solutions",
-        "Participated in Agile development processes, contributing to sprint planning and retrospectives.",
-        "Worked with cross-functional teams to deliver high-quality software solutions.",
+        "Developed a distributed RAG-based template extraction system that reduced manual effort by 90%",
+        "Worked alongside senior engineers to design and implement distributed systems and full-stack applications",
+        "Owned feature development from design to deployment, practiced TDD with 80% test coverage, and collaborated closely with UI/UX, QA, and DevOps teams.",
         "Assisted in code reviews and provided constructive feedback to team members."
       ]
     },
@@ -212,34 +212,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some Significant Projects that I have worked on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/smart_resume_ai.png"),
+      projectName: "Smart Resume AI",
+      projectDesc: "Designed a full-stack AI-based resume builder with features like PDF download, AI-assisted job summaries, and secure login.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Repository",
+          url: "https://github.com/bisht2961/full_stack_ai_resume_generator"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/news_hub_ai.png"),
+      projectName: "News Aggregator ",
+      projectDesc: "Created a full-stack app integrating News API and Gemini AI for generating readable news summaries.Included JWT auth, AI summarization, and full CRUD",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Repository",
+          url: "https://github.com/bisht2961/news_aggregator"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
